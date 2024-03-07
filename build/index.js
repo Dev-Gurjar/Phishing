@@ -2,7 +2,7 @@ function register() {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    fetch('http://instagram-zy8u.onrender.com/register', {
+    fetch('https://instagram-zy8u.onrender.com/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
